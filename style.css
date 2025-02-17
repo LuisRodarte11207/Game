@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  font: "Times New Roman";
+  color: aliceblue;
+}
+
+.riddle-container {
+  display: none;
+  text-align: center;
+}
+.riddle-container:first-child {
+  display: block;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+}
